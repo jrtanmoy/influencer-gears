@@ -44,6 +44,15 @@ nav{display: flex;
     line-height: 24px;
     text-decoration: none;
 }
+#nav-toggler{
+    display: none;
+}
+.nav-toggler-icon{
+    display: none;
+    color: black;
+    font-size: 30px;
+}
+
 /* ----------header banner style---------- */
 .banner{
     min-height: 500px;
@@ -271,3 +280,70 @@ footer{
     margin: 0px 16px;
     padding-bottom: 50px;
 }
+
+/*-------- responsive css ----------*/
+
+
+        /* Mobile Devices */
+ @media only screen and (max-width:688px) {
+    .banner{
+        grid-template-columns: 1fr;
+        width: fit-content;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .banner img{
+        max-width: 380px;
+    }
+    .banner-left{
+        order: 2;
+        padding: 30px 0;
+    }
+    .nav-toggler-icon{
+        display: inline-block;
+    }
+    .navigation{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: seagreen;
+        padding: 20px 0;
+        transform: translateY(-800px);
+        transition:  .8s ease-in-out;
+    }
+    .navigation li a{
+        color: #121212;
+    }
+    #nav-toggler:checked ~ .navigation{
+        transform: translateY(0px);
+    }
+    .ecommerce-site,
+    .section-title,
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .more-info{
+        text-align: center;
+    }
+    .client-access{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 3200px;
+        width: fit-content;
+    }
+    .footer-part{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 1050px;
+    }
+ }
+            
