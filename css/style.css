@@ -269,7 +269,7 @@ footer{
     font-weight: bold;
     font-size: 24px;
 }
-.footer-part p{
+.footer-part small{
     color: #D9DBE1;
     font-size: 14px;
     line-height: 24px;
@@ -284,7 +284,9 @@ footer{
 /*-------- responsive css ----------*/
 
 
-        /* Mobile Devices */
+        /* Mobile Devices */ 
+
+
  @media only screen and (max-width:688px) {
     .banner{
         grid-template-columns: 1fr;
@@ -341,12 +343,14 @@ footer{
         width: fit-content;
     }
     .footer-part{
-        display: grid;
-        grid-template-columns: 1fr;
+        width: fit-content;
         margin-top: 1050px;
+        padding: 0 30px;
     }
  }
       /* Tablet devices */
+
+
 @media only screen and (min-width: 688px) and (max-width:992px) {
     nav{
         width: 100%;
@@ -372,7 +376,7 @@ footer{
         width: fit-content;
     }
   .footer-part{
-      margin-top: 600px;
+      margin-top: 500px;
       margin-bottom: 200px;
   } 
 } 
