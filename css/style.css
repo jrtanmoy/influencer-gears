@@ -232,3 +232,46 @@ hr{
     box-shadow: 0px 0px 40px rgba(128, 118, 118, 0.52);
     border-radius: 15px;
 }
+/*--------------- footer style ----------------*/
+footer{
+    background-color: #0A0826;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.footer-part{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-part h2{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer-part p{
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.fa-instagram-square{
+    font-size: 30px;
+    margin: 0px 16px;
+    padding-bottom: 50px;
+}
+.fa-dribbble-square{
+    font-size: 30px;
+    margin: 0px 16px;
+    padding-bottom: 50px;
+}
+.fa-twitter-square{
+    font-size: 30px;
+    margin: 0px 16px;
+    padding-bottom: 50px;
+}
+.fa-youtube-square{
+    font-size: 30px;
+    margin: 0px 16px;
+    padding-bottom: 50px;
+}
