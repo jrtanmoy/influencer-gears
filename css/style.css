@@ -107,7 +107,8 @@ nav{display: flex;
     transition: transform 1.5s ease-in-out;
 }
 .banner-right img{
-    width: 440px;
+    /* width: 440px; */
+    max-width: 440px;
     height: 414px;
     margin-bottom: 60px;
 }
@@ -127,7 +128,8 @@ hr{
 }
 /*--------------- 3rd section -----------------*/
 .container{
-    width: 1047px;
+    /* width: 1047px; */
+    max-width: 1047px;
     height: 1662px;
 }
 .section-title{
@@ -149,7 +151,8 @@ hr{
 }
 .product{
     background-color: #FFFFFF;
-    width: 329px;
+    /* width: 329px; */
+    max-width: 329px;
     height: 476px;
     padding: 20px;
     margin: 0 auto;
@@ -199,7 +202,8 @@ hr{
 .client-access{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1200px;
+    /* width: 1200px; */
+    max-width: 1200px;
     height: 600px;
     align-items: center;
     column-gap: 30px;
